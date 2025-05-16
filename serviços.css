@@ -1,0 +1,67 @@
+body {
+    height: 100vh;
+    background-image: url(imagens/logo\ medeiros.jpeg);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top 10px;
+    
+    
+
+    
+}
+
+a {
+    color: red;
+    margin-left: 700PX;
+    font-size: 30px;
+    justify-content: right;
+    margin-bottom: 100px;
+    
+    
+}
+
+h1 {
+    color: #31f700;
+    display: flex;
+    margin-bottom: 99px;
+    font-size: 34px;
+    margin-right: 800px;
+    margin-top: 40px;
+    justify-content: left;
+}
+
+h2 {
+    color: #31f700;
+    font-size: 34px;
+    margin-bottom: 80px;
+    margin-bottom: 100px;
+    
+}
+
+h3 {
+    color: #31f700;
+    font-size: 34px;
+    margin-top: 4px;
+}
+
+h4 {
+    display: flex;
+    justify-content: center left;
+        margin-left: 800px;
+}
+
+h5 {
+    color: #31f700;
+    font-size: 34px;
+    margin-bottom: 5px;
+}
+
+h6 {
+    color: #31f700;
+    font-size: 34px;
+    margin-top: 100px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+}
