@@ -12,6 +12,7 @@ body {
     background-size: cover;
     background-position: cover;
     margin-bottom: 600px;
+    font-size: 1.2em;
     }
 ul {
     display: flex;
@@ -24,19 +25,6 @@ a{
     color: white;
     text-decoration: none;
     font-size: 24px;
-}
-
-img {
-    width: 150px;
-    height: 150px;
-    
-    
-}
-
-.container {
-    display:flex;
-    justify-content: center;
-    align-items: center;
 }
 
 h1{
@@ -54,8 +42,28 @@ h3 {
     margin-left: 100px;
 }
 
-@media screen and (max-width: 768px){
-    .colaborador img{
-        width: 30%;
+@media (max-width: 768px) {
+    
+body {
+   font-size: 16px;
+   
+   }
+}
+
+@media (max-width: 768px) {
+
+    body {
+      font-size: 14px;
     }
+  }  
+  .imagem {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
 }
